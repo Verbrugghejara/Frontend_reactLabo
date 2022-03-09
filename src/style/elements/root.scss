@@ -1,0 +1,19 @@
+:root {
+    //DARK MODE
+    --global-dark-color:#222222 ;
+    --global-light-color:#fdfdfd;
+
+    --global-text-color:var(--global-dark-color);
+    --global-background-color:var(--global-light-color);
+    // THEME MODE
+    --global-theme-color:orange;
+}
+
+@media (prefers-color-scheme:dark) {
+    :root{
+        
+        --global-text-color:var(--global-light-color);
+        --global-background-color:var(--global-dark-color);
+
+    }
+}

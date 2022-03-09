@@ -1,0 +1,6 @@
+@import '../settings/media-sizes.scss';
+
+.o-container {
+  margin: 0 auto;
+  max-width: map-get($breakpoints, 'screens');
+}

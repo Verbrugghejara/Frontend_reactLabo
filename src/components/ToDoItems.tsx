@@ -1,5 +1,5 @@
 import {Check} from "lucide-react"
-
+import "../style/components/ToDoItem.scss"
 const ToDoItems = ()=>{
 return(
     <div className="c-todo-item">

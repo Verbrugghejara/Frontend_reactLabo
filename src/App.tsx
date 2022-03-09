@@ -6,7 +6,7 @@ import ToDoItems from "./components/ToDoItems";
 
 
 function App() {
-  const dummyItems = new Array(6)
+  // const dummyItems = new Array(6)
   return (
     
       <main>
@@ -20,7 +20,7 @@ function App() {
             <ToDoItems/>
             <ToDoItems/>
             <ToDoItems/>
-            
+
             {/* {dummyItems.map(()=> {
             })} */}
           </AppRow>

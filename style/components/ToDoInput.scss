@@ -1,0 +1,26 @@
+.c-todo-input{
+    // background: hotpink;
+    margin-bottom: 2rem;
+}
+.c-todo-input__container{
+    display: flex;
+    justify-items: baseline;
+}
+.c-todo-input__button{
+    margin-right: 0.5rem;
+}
+.c-todo-input__symbol{
+    color: var(--global-theme-color) // -> wordt gebruikt in stroke
+    // fill currentColor
+}
+.c-todo-input__text{
+    flex: 1;
+
+    width: max-content;
+    color: var(--global-text-color);
+    font-size: 1.1rem;
+}
+.c-todo-input__categories{
+    margin-top: 0.5rem;
+    background-color: var(--global-background-color);
+}

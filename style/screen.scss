@@ -2,8 +2,9 @@
 //@use -> die gebruikt file in huidige scope
 // SETTINGS
 @forward './settings/media-sizes.scss';
+@forward './settings/fonts.scss';
 // TOOLS
-@forward './tools/mq.scss' ;
+@forward './tools/mq.scss';
 // GENERIC
 @use './generic/reset.scss';
 

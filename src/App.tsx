@@ -1,12 +1,12 @@
-import AppContainer from "./components/AppContainer";
-import AppRow from "./components/AppRow";
-import ToDoAppHeader from "./components/ToDoAppHeader";
-import ToDoInput from "./components/ToDoInput";
-import ToDoItems from "./components/ToDoItems";
+import { useState } from "react";
+import AppContainer from "../components/AppContainer";
+import AppRow from "../components/AppRow";
+import ToDoAppHeader from "../components/ToDoAppHeader";
+import ToDoInput from "../components/ToDoInput";
+import ToDoItems from "../components/ToDoItems";
 
 
 function App() {
-  // const dummyItems = new Array(6)
   return (
     
       <main>

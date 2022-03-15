@@ -1,0 +1,42 @@
+.c-todo-item{
+    display: flex;
+    align-items: baseline;
+    margin: 1rem 0;
+}
+
+.c-todo-item-input{
+    //hide accesible
+    &:checked + .c-todo-item-label{
+        background: var(--global-theme-color);
+    }
+}
+
+.c-todo-item-label{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 50%;
+    border: 1px solid var(--global-theme-color);
+    margin-right: 0.5rem;
+}
+
+.c-todo-item-symbol{
+    width: 0.8rem;
+    height: 0.8rem;
+    stroke: white;
+}
+
+.c-todo-item-content{
+
+}
+
+.c-todo-item-text{
+    font-size: 1.2rem;
+}
+
+.c-todo-item-category{
+    opacity: 0.6;
+}

@@ -1,13 +1,14 @@
 //@forward -> maakt scss file beschikbaar verderop in de imports
 //@use -> die gebruikt file in huidige scope
 // SETTINGS
-@forward './settings/media-sizes.scss';
+@import './settings/media-sizes.scss';
+@import './settings/fonts.scss';
 // TOOLS
-@forward './tools/mq.scss' ;
+@import './tools/mq.scss' ;
 // GENERIC
-@use './generic/reset.scss';
+@import './generic/reset.scss';
 
 // ELEMENTS
 
-@use './elements/page.scss';
-@use './elements/root.scss';
+@import './elements/page.scss';
+@import './elements/root.scss';
